@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 // Original file name:
-// Generation date: 01.11.2016 21:19:40
+// Generation date: 02.11.2016 12:24:00
 namespace MoveResources.Freelancers
 {
     
@@ -9708,6 +9708,28 @@ namespace MoveResources.Freelancers
         private global::System.Nullable<int> _CopyItem;
         partial void OnCopyItemChanging(global::System.Nullable<int> value);
         partial void OnCopyItemChanged();
+        /// <summary>
+        /// There are no comments for Property TeamNewId in the schema.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        public global::System.Nullable<int> TeamNewId
+        {
+            get
+            {
+                return this._TeamNewId;
+            }
+            set
+            {
+                this.OnTeamNewIdChanging(value);
+                this._TeamNewId = value;
+                this.OnTeamNewIdChanged();
+                this.OnPropertyChanged("TeamNewId");
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+        private global::System.Nullable<int> _TeamNewId;
+        partial void OnTeamNewIdChanging(global::System.Nullable<int> value);
+        partial void OnTeamNewIdChanged();
         /// <summary>
         /// There are no comments for Property Идентификатор in the schema.
         /// </summary>

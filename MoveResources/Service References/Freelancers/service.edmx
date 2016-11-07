@@ -473,6 +473,7 @@
         <Property Name="ИдентификаторТипаКонтента" Type="Edm.String" Nullable="true" />
         <Property Name="FeedbackName" Type="Edm.Int32" Nullable="true" />
         <Property Name="CopyItem" Type="Edm.Int32" Nullable="true" />
+        <Property Name="TeamNewId" Type="Edm.Int32" Nullable="true" />
         <Property Name="Идентификатор" Type="Edm.Int32" Nullable="false" />
         <Property Name="ТипКонтента" Type="Edm.String" Nullable="true" />
         <Property Name="Изменен" Type="Edm.DateTime" Nullable="true" m:FC_TargetPath="SyndicationUpdated" m:FC_ContentKind="text" m:FC_KeepInContent="true" />
